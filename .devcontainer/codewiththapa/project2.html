@@ -1,7 +1,3 @@
-// PROJECT1 (COLOR FLIPPER PROJECT)
-// HTML & CSS PART
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,8 +29,6 @@
     <button id='red' onclick="setColor('red')">Red</button>
      <button id='blue' onclick="setColor('blue')">Blue</button>
       <button id='random' onclick="randomColor()">Random</button>
-
-
   <script src="project1.js"></script>
 </body>
 
@@ -43,23 +37,7 @@
 
 
 
-// JAVASCRIPT PART FOR (COLOR FLIPPER)
 
 
-
-const body=document.getElementsByTagName('body')[0]
-function setColor(name){
-	body.style.backgroundColor=name
-
-};
-
-function randomColor(){
-  const red=Math.round(Math.random()*255)
-  const green=Math.round(Math.random()*255)
-  const blue=Math.round(Math.random()*255)
-
-  const color=`rgb(${red},${green},${blue})`
-  body.style.backgroundColor=color
-};
 
 
